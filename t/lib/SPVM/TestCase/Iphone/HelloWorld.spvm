@@ -1,0 +1,7 @@
+class TestCase::Iphone::HelloWorld {
+  use Iphone::HelloWorld;
+  static method test : int () {
+    
+    return 1;
+  }
+}

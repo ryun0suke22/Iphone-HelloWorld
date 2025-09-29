@@ -1,0 +1,6 @@
+# Copyright (c) 2025 [--user-name]
+# MIT License
+
+class Iphone::HelloWorld {
+  version "0.001";
+}
