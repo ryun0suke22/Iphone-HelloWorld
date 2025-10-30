@@ -1,17 +1,34 @@
-/blib
-/Makefile
-/Makefile.old
-/MYMETA.yml
-/MYMETA.json
-/pm_to_blib
-/core.*
-/core
-/SPVM-*
-*.bak
-*.BAK
-*.tmp
+# macOS
+.DS_Store
+
+# Perl/MakeMaker build artifacts
+blib/
+_build/
+Build
+.build/
+Makefile
+Makefile.old
+MYMETA.yml
+MYMETA.json
+pm_to_blib
 *.o
 *.bs
-.tmp
-.git
-.spvm_build
+*.so
+*.dylib
+*.bundle
+
+# Test/coverage
+.prove
+cover_db/
+nytprof.out
+
+# SPVM build artifacts
+.spvm_build/
+t/.spvm_build/
+
+# Xcode/iOS common build outputs (if present)
+DerivedData/
+build/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcuserdata/
