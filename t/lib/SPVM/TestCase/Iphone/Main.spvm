@@ -1,0 +1,10 @@
+class TestCase::Iphone::Main {
+  use Iphone::Main;
+  
+  static method test : int () {
+    # mainメソッドが呼び出せることを確認
+    # 実際の呼び出しはテスト側で行う
+    return 1;
+  }
+}
+

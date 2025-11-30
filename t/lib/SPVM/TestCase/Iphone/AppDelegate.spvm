@@ -1,0 +1,9 @@
+class TestCase::Iphone::AppDelegate {
+  use Iphone::AppDelegate;
+  
+  static method test : int () {
+    # AppDelegateクラスがロードできることを確認
+    return 1;
+  }
+}
+

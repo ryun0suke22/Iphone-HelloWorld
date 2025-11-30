@@ -1,0 +1,9 @@
+class TestCase::Iphone::SceneDelegate {
+  use Iphone::SceneDelegate;
+  
+  static method test : int () {
+    # SceneDelegateクラスがロードできることを確認
+    return 1;
+  }
+}
+

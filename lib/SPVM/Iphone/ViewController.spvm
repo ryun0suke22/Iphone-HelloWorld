@@ -1,0 +1,10 @@
+# Copyright (c) 2025 [--user-name]
+# MIT License
+
+class Iphone::ViewController {
+  version "0.001";
+  
+  method viewDidLoad : void () {
+  }
+}
+

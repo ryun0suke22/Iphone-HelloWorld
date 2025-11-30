@@ -1,0 +1,25 @@
+# Copyright (c) 2025 [--user-name]
+# MIT License
+
+class Iphone::SceneDelegate {
+  version "0.001";
+  
+  method scene_willConnectToSession_options : void ($scene : object, $session : object, $connectionOptions : object) {
+  }
+  
+  method sceneDidDisconnect : void ($scene : object) {
+  }
+  
+  method sceneDidBecomeActive : void ($scene : object) {
+  }
+  
+  method sceneWillResignActive : void ($scene : object) {
+  }
+  
+  method sceneWillEnterForeground : void ($scene : object) {
+  }
+  
+  method sceneDidEnterBackground : void ($scene : object) {
+  }
+}
+
