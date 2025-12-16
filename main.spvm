@@ -1,0 +1,7 @@
+# main.spvm
+
+class {
+  static method main : void () {
+  }
+}
+

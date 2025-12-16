@@ -6,12 +6,10 @@ use FindBin;
 use lib "$FindBin::Bin/lib";
 BEGIN { $ENV{SPVM_BUILD_DIR} = "$FindBin::Bin/.spvm_build"; }
 
-use SPVM 'TestCase::Iphone::Main';
 use SPVM 'TestCase::Iphone::AppDelegate';
 use SPVM 'TestCase::Iphone::SceneDelegate';
 use SPVM 'TestCase::Iphone::ViewController';
 
-use SPVM 'Iphone::Main';
 use SPVM 'Iphone::AppDelegate';
 use SPVM 'Iphone::SceneDelegate';
 use SPVM 'Iphone::ViewController';
@@ -20,13 +18,6 @@ use SPVM 'Fn';
 my $api = SPVM::api();
 
 my $start_memory_blocks_count = $api->get_memory_blocks_count;
-
-# Mainクラスのテスト
-{
-  ok(SPVM::TestCase::Iphone::Main->test, 'TestCase::Iphone::Main->test');
-  # mainメソッドが定義されていることを確認（引数なしで呼び出すとエラーになるが、定義は確認できる）
-  ok(1, 'Iphone::Main class loaded');
-}
 
 # AppDelegateクラスのテスト
 {
