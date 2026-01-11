@@ -1,0 +1,16 @@
+# Copyright (c) 2025 [--user-name]
+# MIT License
+
+class Iphone::AppDelegate {
+  version "0.001";
+  
+  method application_didFinishLaunchingWithOptions : int ($application : object, $launchOptions : object) {
+  }
+  
+  method application_configurationForConnectingSceneSession_options : object ($application : object, $connectingSceneSession : object, $options : object) {
+  }
+  
+  method application_didDiscardSceneSessions : void ($application : object, $sceneSessions : object) {
+  }
+}
+

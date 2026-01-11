@@ -1,0 +1,9 @@
+class TestCase::Iphone::ViewController {
+  use Iphone::ViewController;
+  
+  static method test : int () {
+    # ViewControllerクラスがロードできることを確認
+    return 1;
+  }
+}
+
